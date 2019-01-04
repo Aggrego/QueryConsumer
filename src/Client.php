@@ -11,13 +11,9 @@
 
 declare(strict_types = 1);
 
-namespace Aggrego\CommandConsumer\Query;
+namespace Aggrego\QueryConsumer\Query;
 
-use Aggrego\CommandConsumer\Name;
-
-interface Query
+interface Client
 {
-    public function getName(): Name;
-
-    public function getPayload(): array;
+    public function consume(Query $command): Response;
 }

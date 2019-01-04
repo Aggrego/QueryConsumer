@@ -1,5 +1,5 @@
 {
-  "name": "aggrego/command-consumer",
+  "name": "aggrego/query-consumer",
   "type": "library",
   "description": "",
   "minimum-stability": "dev",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Aggrego\\CommandConsumer\\": "src/"
+      "Aggrego\\QueryConsumer\\": "src/"
     }
   }
 }

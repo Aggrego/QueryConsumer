@@ -1,22 +1,22 @@
-[![License](https://poser.pugx.org/aggrego/command-consumer/license.svg)](https://packagist.org/packages/aggrego/command-consumer)
-[![Latest Stable Version](https://poser.pugx.org/aggrego/command-consumer/v/stable.svg)](https://packagist.org/packages/aggrego/command-consumer)
-[![Total Downloads](https://poser.pugx.org/aggrego/command-consumer/downloads.svg)](https://packagist.org/packages/aggrego/command-consumer)
+[![License](https://poser.pugx.org/aggrego/query-consumer/license.svg)](https://packagist.org/packages/aggrego/query-consumer)
+[![Latest Stable Version](https://poser.pugx.org/aggrego/query-consumer/v/stable.svg)](https://packagist.org/packages/aggrego/query-consumer)
+[![Total Downloads](https://poser.pugx.org/aggrego/query-consumer/downloads.svg)](https://packagist.org/packages/aggrego/query-consumer)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aggrego/commandconsumer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aggrego/commandconsumer/?branch=master)
-[![Travis](https://travis-ci.org/Aggrego/CommandConsumer.svg?branch=master)](https://travis-ci.org/Aggrego/CommandConsumer/builds)
+[![Travis](https://travis-ci.org/Aggrego/QueryConsumer.svg?branch=master)](https://travis-ci.org/Aggrego/QueryConsumer/builds)
 
-# CommandConsumer
+# QueryConsumer
 
-Base interface for any integration cooperates with commands.
+Base interface for any integration cooperates with queries.
 
 ### Assumptions
 
-Commands:
+Query:
 
-* need to be unique
+* need to be versioned
 * need to return `Response`
 
 Response:
-* suggest that depends on implemented `Command` type, should follow rules for `CQRS`. Mostly relied [source](https://stackoverflow.com/a/43493623/1584408). 
+* suggest that depends on implemented `Query` type, should follow rules for `CQRS`. Mostly relied [source](https://stackoverflow.com/a/43493623/1584408). 
 
 ## Versioning
  

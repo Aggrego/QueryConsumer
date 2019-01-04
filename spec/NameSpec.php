@@ -11,9 +11,9 @@
 
 declare(strict_types = 1);
 
-namespace spec\Aggrego\CommandConsumer;
+namespace spec\Aggrego\QueryConsumer;
 
-use Aggrego\CommandConsumer\Name;
+use Aggrego\QueryConsumer\Name;
 use InvalidArgumentException;
 use PhpSpec\ObjectBehavior;
 

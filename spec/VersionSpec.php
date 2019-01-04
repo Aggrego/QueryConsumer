@@ -9,9 +9,9 @@
  *
  */
 
-namespace spec\Aggrego\CommandConsumer;
+namespace spec\Aggrego\QueryConsumer;
 
-use Aggrego\CommandConsumer\Version;
+use Aggrego\QueryConsumer\Version;
 use InvalidArgumentException;
 use PhpSpec\ObjectBehavior;
 

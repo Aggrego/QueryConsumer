@@ -11,7 +11,7 @@
 
 declare(strict_types = 1);
 
-namespace Aggrego\CommandConsumer;
+namespace Aggrego\QueryConsumer;
 
 use Assert\Assertion;
 use Composer\Semver\VersionParser;
