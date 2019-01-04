@@ -11,9 +11,7 @@
 
 declare(strict_types = 1);
 
-namespace Aggrego\QueryConsumer\Query;
-
-use Aggrego\QueryConsumer\Name;
+namespace Aggrego\QueryConsumer;
 
 interface Query
 {
